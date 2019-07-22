@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7ad7f1-7c3c-48f4-ab03-ce1c0657915c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logs/LogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/LogItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/logs/Logs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logs/Logs.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/layout/SearchBar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -58,13 +54,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/layout/Preloader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/logs/Logs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -111,9 +113,10 @@
         <option value="$PROJECT_DIR$/src/components/layout/AppNavbar.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/db.json" />
-        <option value="$PROJECT_DIR$/src/components/logs/Logs.js" />
         <option value="$PROJECT_DIR$/src/components/logs/LogItem.js" />
         <option value="$PROJECT_DIR$/src/components/layout/SearchBar.js" />
+        <option value="$PROJECT_DIR$/src/components/layout/Preloader.js" />
+        <option value="$PROJECT_DIR$/src/components/logs/Logs.js" />
       </list>
     </option>
   </component>
@@ -148,6 +151,13 @@
               <item name="react-it-logger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-it-logger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-it-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,24 +195,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563778345158</updated>
-      <workItem from="1563778346438" duration="5752000" />
+      <workItem from="1563778346438" duration="6001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5752000" />
+    <option name="totallyTimeSpent" value="6001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10170394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10170394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.14781635" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.14781635" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -285,16 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/logs/Logs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/logs/LogItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -309,6 +309,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/Preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/logs/Logs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
