@@ -4,6 +4,7 @@ import {
     LOGS_ERROR
 } from './types';
 
+// Get logs from server
 export const getLogs = () => async dispatch => {
     try {
         setLoading();
