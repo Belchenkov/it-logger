@@ -27,6 +27,13 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "Change network card on server 003",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2019-07-25T07:27:11.602Z",
+      "id": 5
     }
   ],
   "techs": [
