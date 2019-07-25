@@ -6,7 +6,8 @@ import {
     DELETE_LOG,
     SET_CURRENT,
     UPDATE_LOG,
-    CLEAR_CURRENT
+    CLEAR_CURRENT,
+    SEARCH_LOGS
 } from './types';
 
 // Get logs from server
@@ -76,6 +77,26 @@ export const deleteLog = id => async dispatch => {
     }
 };
 
+// Search server logs
+export const searchLogs = text => async dispatch => {
+    try {
+        setLoading();
+        console.log(text);
+        const res = await fetch(`/logs?q=${text}`);
+        const data = await res.json();
+
+        dispatch({
+            type: SEARCH_LOGS,
+            payload: data
+        });
+    } catch (err) {
+        dispatch({
+            type: LOGS_ERROR,
+            payload: err.response.data
+        });
+    }
+};
+
 // Update log on server
 export const updateLog = log => async dispatch => {
     try {
@@ -92,7 +113,7 @@ export const updateLog = log => async dispatch => {
         const data = await res.json();
 
         dispatch({
-            type: DELETE_LOG,
+            type: UPDATE_LOG,
             payload: data
         });
     } catch (err) {
